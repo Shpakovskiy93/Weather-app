@@ -1,0 +1,61 @@
+@media (max-width: 680px) {
+    .header__container {
+        flex-direction: column;
+    }
+    .header__units {
+        order: 0;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .header__city {
+        order: 1;
+        margin-top: 20px;
+    }
+    .city__name {
+        text-align: center;
+    }
+
+    .weather {
+        padding-top: 40px;
+    }
+    .weather__info {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .weather__info-list {
+        flex-direction: column;
+    }
+    .weather__info-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 520px) {
+    .search__input {
+        max-width: 220px;
+        height: 50px;
+    }
+    .search__btn {
+        height: 50px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 420px) {
+    .city__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .city__change {
+        order: 0;
+        margin-bottom: 20px;
+    }
+    .weather__temperature {
+        font-size: 92px;
+    }
+    .weather__info {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+}

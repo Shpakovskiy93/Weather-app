@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+body {
+    background-color: #6195ed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn__reset {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    opacity: .6;
+    background-color: transparent;
+    color: #fff;
+}
